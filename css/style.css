@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 5px;
+    font-family: 'Roboto', "sans serif";
+}
+
+
+/* h1 {
+    color: rgb(73, 4, 4);
+}
+
+h2 {
+    color: blue;
+}
+
+.heading1 {
+    color: red;
+} */
+
+/* 
+
+1. tag selector   h1{
+
+}
+2. class selector
+.className{
+
+}
+
+3. universal selector 
+* {
+    p
+}
+4. Id Selector
+#about-us{
+
+}
+
+
+5. Group selector
+
+
+COlor 
+
+1. Color name: eg: red, green.....
+2. RGB: color: rgb(red, green, blue)
+    0-255
+    0-255
+    0-255
+
+    RGBA: color: rgb(red, green, blue, alpha)
+    0-255
+    0-255
+    0-255
+    0-1
+3. hexadecimal values: #RRGGBB
+    00 -FF
+
+    #RGB
+*/
+
+
+/* RGB: */
+#banner{
+    /* color: #ffffff; */
+    background-color: rgb(0, 0, 0);
+}
+
+#about-us{
+    color: #ffffff;
+    background-color: rgba(93, 40, 40, 0.8);
+}
+
+.banner-text{
+    color: #00ff00;
+}
+
+
+img{
+
+}
+
+
+/* Css Units */
+
+/* 1. Absolute
+    80px
+    
+    a. px  1px = 1/96 of 1 inch (96px = 1 inch)  (vvvvvv)
+    b. pt  1/72 of 1 inch (72pt = 1 inch)
+    c. cm 
+    d. mm
+    e. in
+
+
+2. Relative units
+
+    a, %
+    b. em (1 em =16px)
+    c. rem (root em)
+    d. vh 1vh = 1/100 of viewport height
+    e. vw  1vw = 1/100 of v.w.
+
+*/
+
+
+/* Text formating 
+    1. color
+    2. background-color
+    3. text-align
+    4. text-align-last
+    5. text-decoration
+    6. text-transform
+    7. word-spacing
+    8. line-height
+    9. letter-spacing
+    10. text-indent
+
+*/
+
+
+/* font styles 
+    font-style
+    font-weight
+    font-size
+    font-family (done)
+*/
+
+
+/* 
+    Padding 
+        - padding-left
+        - padding-top
+        - padding-bottom
+        - padding-right
+
+        (TOP, RIGHT, BOTTOM, LEFT)
+
+        TOP, RIGHT/LEFT, Bottom
+
+        TOP/Bottom right/left
+
+*/
+
+/* 
+    margin 
+        - margin-left
+        - margin-top
+        - margin-bottom
+        - margin-right
+
+        (TOP, RIGHT, BOTTOM, LEFT)
+
+        TOP, RIGHT/LEFT, Bottom
+
+        TOP/Bottom right/left
+
+*/
+
+
+
+.para span {
+    text-transform: uppercase;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.secondpara{
+    /* border-color: red; */
+}
+
+/* 
+    css fonts
+    1. font-family
+*/
+
+
+/* 
+    1. box-sizing
+            -content-box
+            -border-box
+
+    2. border
+        -border-style (none, solid, dashed, dotted, groove, double, outset)
+            -border-(position)-style
+        -border-width
+        -border-color
+        border
+            -border-left (R, B, L)
+
+        border-radius (VVV)
+
+
+*/
+
+button{
+    border-style: none;
+    background-color: rgb(22, 161, 150);
+    color: white;
+    padding: 5px;
+    border: 4px solid rgb(150, 48, 48);
+    border-radius: 4px;
+}
+
+p{
+    border-radius: 5px;
+    padding: 14px;
+}
+
+.secondpara{
+    /* border-style: dotted;
+    border-width: 0 5px; 
+    border-color: #fff; */
+
+    border: 2px solid #e20d0d;
+    border-radius: 50%;
+    padding: 14px
+}
+
+
+img{
+    /* border-radius: 50%;
+    border: 4px solid red; */
+    width: 15%;
+    object-fit: cover;
+    height: 50px;
+}
+
+
+/* dimensions
+    width (min-width, max-width)
+    height(min-height, max-height)
+
+
+
+    inline (a, span)
+    block (h1-h6, div, p...)
+
+
+    overflow:
+
+
+    display:  none
+
+    object-fit: (cover, contain)
+
+
+*/
+
+p{
+    color: white;
+    background-color: rgb(9, 9, 77);
+    width: 50%;
+    height: 100px;
+    /* height: 15rem; */
+}
+
+
+ul{
+    display: flex;
+}
+
+ul li{
+    padding: 5px;
+    list-style-type:none;
+}
+
+
+
+
+
+
+
+
+
+
