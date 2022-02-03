@@ -5,12 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main-parent{
+            display: flex;
+            justify-content: space-between;
+            background: azure;
+            align-items: center;
+        }
+        .parent{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .parent a{
+            text-decoration: none;
+            color: black;
+            margin: 12px 40px;
+        }
+    </style>
 </head>
 <body>
-    <span class="color1"></span>
-    <span class="color2"></span>
-    <span class="color3"></span>
-    <span class="color4"></span>
+    <div class="main-parent">
+        <img src="images/Lays-Logo.png" alt="" width="80">
+        <div class="parent">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+    
 </body>
 </html>

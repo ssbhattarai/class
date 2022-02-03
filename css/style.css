@@ -159,7 +159,7 @@ img{
 
         TOP, RIGHT/LEFT, Bottom
 
-        TOP/Bottom right/left
+        TOP/Bottom, RIGHT/LEFT
 
 */
 
@@ -275,6 +275,12 @@ ul li{
     padding: 5px;
     list-style-type:none;
 }
+
+/* flex box */
+
+
+
+
 
 
 
