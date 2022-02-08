@@ -44,6 +44,16 @@ h2 {
 
 
 5. Group selector
+    div p{
+
+    }
+
+6. combinator selector
+
+    div i{
+
+    }
+
 
 
 COlor 
@@ -260,7 +270,7 @@ img{
 
 p{
     color: white;
-    background-color: rgb(9, 9, 77);
+    /* background-color: rgb(9, 9, 77); */
     width: 50%;
     height: 100px;
     /* height: 15rem; */
@@ -277,6 +287,105 @@ ul li{
 }
 
 /* flex box */
+
+
+
+
+
+/* combinator selector */
+
+/* combinator selector */
+
+div p:hover{
+    color: aqua;
+}
+
+h1, h2, h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+div + p{
+    background-color: red;
+}
+
+div > p{
+    background-color: #00ff00;
+}
+
+
+
+
+/* pseudo classes */
+
+a:hover{
+    color: #00ff00;
+}
+
+a:link{
+    color: #e20d0d;
+}
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+/* input:focus{
+    background-color: red;
+    color: white;
+    border: none;
+} */
+
+input[type='text']{
+    background-color: #00ff00;
+}
+
+input[type='text']:focus{
+    background-color: white;
+}
+
+/* [class|='top']{
+    color: red;
+} */
+/* ctl + / */
+
+/* [class^='top']{
+    color: red;
+} */
+[class$='top']{
+    color: red;
+}
+
+
+
+
+
+a[target="__blank"]{
+    background-color: cadetblue;
+}
+
+p{
+    background-color: #e20d0d;
+    /* display: none; */
+}
+
+p:hover{
+    font-size: small;
+    /* color: #e20d0d; */
+    background-color: #00ff00;
+}
+
+
+
+
+
+
+
+
+
 
 
 

@@ -86,7 +86,7 @@
 }
 
 /* 
-    positions:
+    positions: static(default),fixed, absolute, relative, sticky
 */
 
 .position-container{
@@ -100,6 +100,78 @@
     top: 50%;
     right: 20%;
 }
+
+
+
+
+/* pseudo-elements */
+
+/* 
+    selector::pseudo-element{
+
+    }
+
+    ::first-line
+    ::first-letter
+
+    ::before
+    ::after
+
+*/
+
+p::first-line{
+    color: blue;
+}
+
+p::first-letter{
+    font-size: xx-large;
+}
+
+
+
+h2::before{
+    content: "";
+    border: 2px dotted red;
+}
+
+h2::after{
+    content: "";
+    border: 2px dotted red;
+}
+
+/*  */
+::selection{
+    background-color: rgb(16, 153, 153);
+    color: white;
+}
+
+
+/* positions */
+
+.container{
+    border: 2px solid black;
+    height: 300px;
+    /* position: relative; */
+}
+
+.container .test{
+    
+    display: inline-block;
+    border: 2px solid red;
+    width: 150px;
+    height: 100px;
+}
+
+.container .test#item1{
+    position: sticky;
+    top: 0;
+    /* bottom: 10%; */
+    /* right: 0; */
+}
+
+
+
+
 
 
 
